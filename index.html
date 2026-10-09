@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kundan Kumar Jha | Full Stack Developer (.NET, Java, Python, React, Cloud)</title>
+  <meta name="description" content="Portfolio of Kundan Kumar Jha - Full Stack Developer based in Mumbai with 4+ years experience in C#, .NET Core, Java, Spring Boot, Python, React.js, Azure & AWS. Clients: Zurich NA, L&T, Star Union Dai-ichi.">
+  <meta name="keywords" content="Kundan Kumar Jha, Full Stack Developer, Mumbai, .NET Core, Java, Spring Boot, Python, React.js, Azure, AWS, Zurich NA, L&T, Star Union Dai-ichi">
+  <meta name="author" content="Kundan Kumar Jha">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Background Ambient Glow -->
+  <div class="bg-glow-container">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+  </div>
+
+  <!-- Floating WhatsApp Quick-Chat Action -->
+  <a href="https://wa.me/919572167459?text=Hi%20Kundan,%20I%20saw%20your%20portfolio!" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="wa-floating-btn" 
+     title="Chat directly with Kundan on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>Chat on WhatsApp</span>
+    <div class="wa-pulse-dot"></div>
+  </a>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-badge">KJ</span>
+        <span>Kundan<span class="gradient-text">.dev</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="clients.html" class="nav-link">Clients & Domains</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme" title="Toggle Light/Dark Theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+
+        <!-- WhatsApp Header Pill -->
+        <a href="https://wa.me/919572167459?text=Hi%20Kundan,%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="color: #25d366; border-color: rgba(37, 211, 102, 0.4);" title="WhatsApp Kundan">
+          <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
+        </a>
+
+        <!-- View Resume CTA -->
+        <a href="resume.html" class="btn btn-outline btn-sm" title="View Printable Resume">
+          <i class="fa-solid fa-file-invoice"></i> Resume
+        </a>
+
+        <!-- Hire Me CTA -->
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          <span>Let's Talk</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section (Clean & Focused) -->
+  <section class="hero-section" id="hero" style="min-height: 80vh; padding-bottom: 40px;">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-status-pill">
+          <span class="status-dot"></span>
+          <span>📍 Currently based in <strong>Mumbai, India</strong> &nbsp;•&nbsp; 🟢 Available for Opportunities</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Kundan Kumar Jha</span>
+        </h1>
+
+        <div class="hero-role-wrapper">
+          <span>I build as a</span>
+          <span class="hero-role-text" id="typewriterText">Full Stack Developer</span>
+        </div>
+
+        <p class="hero-desc">
+          Full Stack Developer with <strong>4+ years</strong> of enterprise experience architecting and maintaining mission-critical applications across <strong>Banking, Finance</strong>, and <strong>Steel Manufacturing</strong> domains for marquee clients including <strong>Zurich NA, L&T</strong>, and <strong>Star Union Dai-ichi Bank</strong>. Specialized in <strong>C#, .NET Core, Java, Spring Boot, Python, React.js</strong>, and cloud engineering on <strong>Azure & AWS</strong>.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="projects.html" class="btn btn-primary">
+            <span>Explore Projects</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="resume.html" class="btn btn-secondary">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span>View Resume</span>
+          </a>
+          <a href="https://wa.me/919572167459?text=Hi%20Kundan,%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="border-color: rgba(37, 211, 102, 0.5); color: #25d366;">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp Me</span>
+          </a>
+        </div>
+
+        <div class="hero-social-links">
+          <a href="https://www.linkedin.com/in/kundan-jha-75ba19190" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile (kundan-jha-75ba19190)">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://wa.me/919572167459?text=Hi%20Kundan,%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener noreferrer" class="social-icon-btn" style="color: #25d366;" title="Direct WhatsApp (+91 9572167459)">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="mailto:jhakundan986@gmail.com" class="social-icon-btn" title="Email Kundan">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="tel:+919572167459" class="social-icon-btn" title="Call Kundan">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub Profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Visual Code Card -->
+      <div class="hero-visual">
+        <div class="hero-card-window">
+          <div class="window-header">
+            <div class="window-dots">
+              <span class="window-dot red"></span>
+              <span class="window-dot yellow"></span>
+              <span class="window-dot green"></span>
+            </div>
+            <div class="window-title">KundanProfile.cs</div>
+            <div style="font-size: 0.75rem; color: var(--text-muted);"><i class="fa-solid fa-code"></i> C# / Java</div>
+          </div>
+          <div class="window-content">
+            <p><span class="code-keyword">namespace</span> <span class="code-class">EnterpriseEngineering</span>;</p>
+            <p><br></p>
+            <p><span class="code-keyword">public class</span> <span class="code-class">FullStackDeveloper</span></p>
+            <p>{</p>
+            <p>&nbsp;&nbsp;<span class="code-keyword">public string</span> Name =&gt; <span class="code-string">"Kundan Kumar Jha"</span>;</p>
+            <p>&nbsp;&nbsp;<span class="code-keyword">public string</span> Location =&gt; <span class="code-string">"Mumbai, India 📍"</span>;</p>
+            <p>&nbsp;&nbsp;<span class="code-keyword">public int</span> Experience =&gt; <span class="code-number">4</span>; <span class="code-comment">// + years</span></p>
+            <p>&nbsp;&nbsp;<span class="code-keyword">public string[]</span> PrimaryStack =&gt; <span class="code-keyword">new</span>[] {</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">".NET Core"</span>, <span class="code-string">"Java & Spring Boot"</span>,</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Python"</span>, <span class="code-string">"React.js"</span>, <span class="code-string">"SQL Server"</span>,</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Azure (AZ-900)"</span>, <span class="code-string">"AWS (CLF-C02)"</span></p>
+            <p>&nbsp;&nbsp;};</p>
+            <p>&nbsp;&nbsp;<span class="code-keyword">public string[]</span> MarqueeClients =&gt; <span class="code-keyword">new</span>[] {</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Zurich NA"</span>, <span class="code-string">"L&T"</span>, <span class="code-string">"Star Union Dai-ichi"</span></p>
+            <p>&nbsp;&nbsp;};</p>
+            <p>&nbsp;&nbsp;<span class="code-keyword">public string[]</span> Domains =&gt; <span class="code-keyword">new</span>[] {</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Banking"</span>, <span class="code-string">"Finance"</span>, <span class="code-string">"Steel Manufacturing"</span></p>
+            <p>&nbsp;&nbsp;};</p>
+            <p>}</p>
+          </div>
+        </div>
+
+        <!-- Floating Badges -->
+        <div class="hero-badge-float badge-top">
+          <div class="badge-icon-box" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b;">
+            <i class="fa-brands fa-aws"></i>
+          </div>
+          <div>
+            <div class="badge-text-val">AWS + Azure Certified</div>
+            <div class="badge-text-lbl">CLF-C02 & AZ-900 Cloud</div>
+          </div>
+        </div>
+
+        <div class="hero-badge-float badge-bottom">
+          <div class="badge-icon-box" style="background: rgba(16, 185, 129, 0.15); color: var(--accent-success);">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+          <div>
+            <div class="badge-text-val">SIH Winner 🏆</div>
+            <div class="badge-text-lbl">Smart India Hackathon</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Running Animated Emojis & Stack Marquee Banner -->
+  <div class="marquee-container">
+    <div class="marquee-track">
+      <span class="marquee-pill"><span class="running-emoji">🚀</span> 4+ Years Enterprise Experience</span>
+      <span class="marquee-pill"><span class="bounce-emoji">📍</span> Based in Mumbai, India</span>
+      <span class="marquee-pill"><span class="running-emoji">🏦</span> Banking Domain</span>
+      <span class="marquee-pill"><span class="bounce-emoji">💳</span> Finance Domain</span>
+      <span class="marquee-pill"><span class="running-emoji">🏭</span> Steel Manufacturing</span>
+      <span class="marquee-pill"><span class="bounce-emoji">🏢</span> Zurich NA Client</span>
+      <span class="marquee-pill"><span class="running-emoji">🏗️</span> L&T Client</span>
+      <span class="marquee-pill"><span class="bounce-emoji">🏛️</span> Star Union Dai-ichi Bank Client</span>
+      <span class="marquee-pill"><span class="running-emoji">☕</span> Java & Spring Boot</span>
+      <span class="marquee-pill"><span class="bounce-emoji">⚡</span> C# & .NET Core</span>
+      <span class="marquee-pill"><span class="running-emoji">🐍</span> Python Schedulers</span>
+      <span class="marquee-pill"><span class="bounce-emoji">⚛️</span> React.js</span>
+      <span class="marquee-pill"><span class="running-emoji">☁️</span> Azure AZ-900 & AWS CLF-C02 Certified</span>
+      <span class="marquee-pill"><span class="bounce-emoji">🏆</span> Smart India Hackathon Winner</span>
+      <!-- Loop -->
+      <span class="marquee-pill"><span class="running-emoji">🚀</span> 4+ Years Enterprise Experience</span>
+      <span class="marquee-pill"><span class="bounce-emoji">📍</span> Based in Mumbai, India</span>
+      <span class="marquee-pill"><span class="running-emoji">🏦</span> Banking Domain</span>
+      <span class="marquee-pill"><span class="bounce-emoji">💳</span> Finance Domain</span>
+      <span class="marquee-pill"><span class="running-emoji">🏭</span> Steel Manufacturing</span>
+      <span class="marquee-pill"><span class="bounce-emoji">🏢</span> Zurich NA Client</span>
+      <span class="marquee-pill"><span class="running-emoji">🏗️</span> L&T Client</span>
+      <span class="marquee-pill"><span class="bounce-emoji">🏛️</span> Star Union Dai-ichi Bank Client</span>
+      <span class="marquee-pill"><span class="running-emoji">☕</span> Java & Spring Boot</span>
+      <span class="marquee-pill"><span class="bounce-emoji">⚡</span> C# & .NET Core</span>
+      <span class="marquee-pill"><span class="running-emoji">🐍</span> Python Schedulers</span>
+      <span class="marquee-pill"><span class="bounce-emoji">⚛️</span> React.js</span>
+      <span class="marquee-pill"><span class="running-emoji">☁️</span> Azure AZ-900 & AWS CLF-C02 Certified</span>
+      <span class="marquee-pill"><span class="bounce-emoji">🏆</span> Smart India Hackathon Winner</span>
+    </div>
+  </div>
+
+  <!-- Key Impact Stats -->
+  <section class="stats-strip" id="statsSection" style="padding: 40px 0;">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number" data-target="4" data-suffix="+">0</div>
+          <div class="stat-label">Years of Experience</div>
+          <div class="stat-desc">Full Stack enterprise engineering</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="3" data-suffix="+ Global">0</div>
+          <div class="stat-label">Marquee Clients</div>
+          <div class="stat-desc">Zurich NA, L&T, Star Union Dai-ichi</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="10000" data-suffix="+">0</div>
+          <div class="stat-label">Records Processed</div>
+          <div class="stat-desc">In under 2 mins high-throughput</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="23" data-suffix=" Depts">0</div>
+          <div class="stat-label">Financial Workflows</div>
+          <div class="stat-desc">Automated manual Excel to web portal</div>
+        </div>
+      </div>
+
+      <!-- Quick Exploration Hub Cards (No Dragging Down - Opens in Clean Pages!) -->
+      <div style="text-align: center; margin-top: 50px;">
+        <div class="section-tag"><i class="fa-solid fa-compass"></i> Explore Portfolio Sections</div>
+        <h2 style="font-size: 2rem; margin-bottom: 8px;">Navigate To <span class="gradient-text">Each Section</span></h2>
+        <p style="color: var(--text-secondary); font-size: 0.95rem;">Click any section below to open its dedicated page cleanly without dragging down:</p>
+      </div>
+
+      <div class="portal-grid">
+        <!-- 1. About -->
+        <a href="about.html" class="portal-card">
+          <div class="portal-card-top">
+            <div class="portal-icon"><i class="fa-solid fa-user"></i></div>
+            <i class="fa-solid fa-arrow-right portal-arrow"></i>
+          </div>
+          <div class="portal-title">About Me</div>
+          <div class="portal-desc">Engineering journey, foundational philosophy, and background in Mumbai, India.</div>
+          <div class="portal-badge"><span>Open About Page</span> &rarr;</div>
+        </a>
+
+        <!-- 2. Clients & Domains -->
+        <a href="clients.html" class="portal-card">
+          <div class="portal-card-top">
+            <div class="portal-icon" style="background: rgba(16, 185, 129, 0.15); color: #10b981;"><i class="fa-solid fa-building-shield"></i></div>
+            <i class="fa-solid fa-arrow-right portal-arrow"></i>
+          </div>
+          <div class="portal-title">Clients & Domains</div>
+          <div class="portal-desc">Work with Zurich NA, L&T, Star Union Dai-ichi Bank across Banking, Finance & Steel.</div>
+          <div class="portal-badge" style="color: #10b981;"><span>View Enterprise Clients</span> &rarr;</div>
+        </a>
+
+        <!-- 3. Skills -->
+        <a href="skills.html" class="portal-card">
+          <div class="portal-card-top">
+            <div class="portal-icon" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b;"><i class="fa-solid fa-code"></i></div>
+            <i class="fa-solid fa-arrow-right portal-arrow"></i>
+          </div>
+          <div class="portal-title">Technical Skills</div>
+          <div class="portal-desc">Interactive toolkit: .NET Core, Java, Spring Boot, Python, React.js, Azure & AWS.</div>
+          <div class="portal-badge" style="color: #f59e0b;"><span>View Tech Stack</span> &rarr;</div>
+        </a>
+
+        <!-- 4. Experience -->
+        <a href="experience.html" class="portal-card">
+          <div class="portal-card-top">
+            <div class="portal-icon" style="background: rgba(99, 102, 241, 0.15); color: #818cf8;"><i class="fa-solid fa-timeline"></i></div>
+            <i class="fa-solid fa-arrow-right portal-arrow"></i>
+          </div>
+          <div class="portal-title">Work Experience</div>
+          <div class="portal-desc">4+ years career timeline at Softenger, Anantkaal LLP, and DXC Technology.</div>
+          <div class="portal-badge" style="color: #818cf8;"><span>View Career Timeline</span> &rarr;</div>
+        </a>
+
+        <!-- 5. Projects -->
+        <a href="projects.html" class="portal-card">
+          <div class="portal-card-top">
+            <div class="portal-icon" style="background: rgba(236, 72, 153, 0.15); color: #ec4899;"><i class="fa-solid fa-cubes"></i></div>
+            <i class="fa-solid fa-arrow-right portal-arrow"></i>
+          </div>
+          <div class="portal-title">Featured Projects</div>
+          <div class="portal-desc">One Click schedulers, Energy management, Power BI embed gateway, and more.</div>
+          <div class="portal-badge" style="color: #ec4899;"><span>View Architectures</span> &rarr;</div>
+        </a>
+
+        <!-- 6. Certifications -->
+        <a href="certifications.html" class="portal-card">
+          <div class="portal-card-top">
+            <div class="portal-icon" style="background: rgba(6, 182, 212, 0.15); color: #06b6d4;"><i class="fa-solid fa-award"></i></div>
+            <i class="fa-solid fa-arrow-right portal-arrow"></i>
+          </div>
+          <div class="portal-title">Certifications</div>
+          <div class="portal-desc">AWS Cloud Practitioner, Azure Fundamentals, and Smart India Hackathon Award.</div>
+          <div class="portal-badge" style="color: #06b6d4;"><span>View Credentials</span> &rarr;</div>
+        </a>
+
+        <!-- 7. Contact -->
+        <a href="contact.html" class="portal-card">
+          <div class="portal-card-top">
+            <div class="portal-icon" style="background: rgba(37, 211, 102, 0.15); color: #25d366;"><i class="fa-solid fa-paper-plane"></i></div>
+            <i class="fa-solid fa-arrow-right portal-arrow"></i>
+          </div>
+          <div class="portal-title">Contact & WhatsApp</div>
+          <div class="portal-desc">Connect directly in Mumbai via WhatsApp, Email, Phone, or direct message form.</div>
+          <div class="portal-badge" style="color: #25d366;"><span>Connect With Kundan</span> &rarr;</div>
+        </a>
+
+        <!-- 8. Printable Resume -->
+        <a href="resume.html" class="portal-card">
+          <div class="portal-card-top">
+            <div class="portal-icon"><i class="fa-solid fa-file-invoice"></i></div>
+            <i class="fa-solid fa-arrow-right portal-arrow"></i>
+          </div>
+          <div class="portal-title">Official Resume</div>
+          <div class="portal-desc">A formatted, printable resume page with 1-click PDF download & print layout.</div>
+          <div class="portal-badge"><span>Open Resume PDF</span> &rarr;</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="index.html" class="logo">
+          <span class="logo-badge">KJ</span>
+          <span>Kundan Kumar Jha</span>
+        </a>
+
+        <div class="footer-nav">
+          <a href="about.html" class="nav-link">About</a>
+          <a href="clients.html" class="nav-link">Clients & Domains</a>
+          <a href="skills.html" class="nav-link">Skills</a>
+          <a href="experience.html" class="nav-link">Experience</a>
+          <a href="projects.html" class="nav-link">Projects</a>
+          <a href="certifications.html" class="nav-link">Certifications</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+
+        <button class="scroll-top-btn" id="scrollTopBtn" title="Back to Top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Kundan Kumar Jha • Mumbai, India. Built with HTML5, CSS3 & JavaScript.
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+          <div class="visitor-counter-box" title="Live Portfolio Visitor Count">
+            <i class="fa-solid fa-eye" style="color: var(--text-highlight);"></i>
+            <span>Portfolio Views:</span>
+            <img src="https://api.visitorbadge.io/api/visitors?pageUrl=kundan-kumar-jha-portfolio&label=Live&labelColor=%230f172a&countColor=%230284c7&style=flat" alt="Live Portfolio Visitors" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive AI Portfolio Chatbot Widget -->
+  <div class="chatbot-toggle-btn" id="chatbotToggleBtn" title="Ask Kundan's AI Assistant">
+    <i class="fa-solid fa-robot"></i>
+    <span>Ask Kundan AI</span>
+    <span class="chatbot-badge">New</span>
+  </div>
+
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chat-header">
+      <div class="chat-header-info">
+        <div class="chat-avatar">
+          <i class="fa-solid fa-robot"></i>
+        </div>
+        <div>
+          <div class="chat-title">Kundan's AI Assistant</div>
+          <div class="chat-status">
+            <span class="chat-status-dot"></span>
+            <span>Online • Instant Answers</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat-controls">
+        <button class="chat-control-btn" id="chatCloseBtn" aria-label="Close Chat">&times;</button>
+      </div>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="chat-msg bot">
+        <div class="chat-msg-bubble">
+          👋 Hi there! I'm <strong>Kundan Kumar Jha's AI Portfolio Assistant</strong>.<br><br>
+          I can answer any questions about Kundan's <strong>4+ years of full-stack experience</strong>, skills in <strong>C#, .NET Core, Java, Spring Boot, Python, React.js</strong>, clients like <strong>Zurich NA, L&T, Star Union Dai-ichi</strong>, or help you connect with him directly in <strong>Mumbai</strong>.<br><br>
+          How can I help you today?
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Prompt Chips -->
+    <div class="chat-suggestions" id="chatSuggestions">
+      <button class="chat-chip" data-query="What is Kundan's tech stack?">⚡ Tech Stack</button>
+      <button class="chat-chip" data-query="Which clients has Kundan worked with?">🏢 Clients</button>
+      <button class="chat-chip" data-query="Tell me about his work experience">💼 Experience</button>
+      <button class="chat-chip" data-query="What domains has he worked in?">🏦 Domains</button>
+      <button class="chat-chip" data-query="Can I view or download his resume?">📄 Resume</button>
+      <button class="chat-chip" data-query="How can I contact or WhatsApp Kundan?">💬 WhatsApp</button>
+    </div>
+
+    <!-- Chat Input Area -->
+    <form class="chat-input-area" id="chatForm">
+      <input type="text" id="chatInput" class="chat-input" placeholder="Ask about skills, clients, experience..." autocomplete="off">
+      <button type="submit" class="chat-send-btn" id="chatSendBtn" aria-label="Send Message">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+    </form>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
